@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { CarruselComponent } from './components/carrusel/carrusel.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
+import { PricingComponent } from './components/pricing/pricing.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     CarruselComponent,
-    GalleryComponent
+    GalleryComponent,
+    PricingComponent
   ],
   imports: [
     BrowserModule

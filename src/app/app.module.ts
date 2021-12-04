@@ -6,6 +6,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import { CarruselComponent } from './components/carrusel/carrusel.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { PricingComponent } from './components/pricing/pricing.component';
+import { LocationComponent } from './components/location/location.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { PricingComponent } from './components/pricing/pricing.component';
     MenuComponent,
     CarruselComponent,
     GalleryComponent,
-    PricingComponent
+    PricingComponent,
+    LocationComponent
   ],
   imports: [
     BrowserModule

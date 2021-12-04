@@ -1,10 +1,10 @@
 .pricing-section {
-  background-image: url(../../../assets/img/background/background-pricing.jpg);
+  background-image: url(../../../assets/img/background/background-pricing.jpg)!important;;
   background-color: #cccccc;
   height: fit-content;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain!important;;
   position: relative;
 }
 .heading-title {
@@ -60,7 +60,6 @@
   display: inline-block;
   width: 50%;
   padding: 30px 0;
-  float: left;
   font-size: 30px;
   color: #fff;
   line-height: 20px;

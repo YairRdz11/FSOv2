@@ -7,6 +7,7 @@ import { CarruselComponent } from './components/carrusel/carrusel.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { PricingComponent } from './components/pricing/pricing.component';
 import { LocationComponent } from './components/location/location.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { LocationComponent } from './components/location/location.component';
     CarruselComponent,
     GalleryComponent,
     PricingComponent,
-    LocationComponent
+    LocationComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
